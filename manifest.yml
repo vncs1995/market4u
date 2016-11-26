@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 1536M
+  instances: 1
+  domain: mybluemix.net
+  name: market4u
+  host: market4u
+  disk_quota: 1024M
+  buildpack: php_buildpack
